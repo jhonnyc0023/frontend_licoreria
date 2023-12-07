@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import LoginView from '@/views/LoginView.vue'
+import LoginView from '../views/AboutView.vue'
 
 import { useAuthStore } from '@/stores'
 import { getTokenFromLocalStorage } from '@/helpers'
